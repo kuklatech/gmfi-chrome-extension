@@ -1,0 +1,30 @@
+body {
+  padding: 2rem;
+  min-width: 16rem;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.no-content {
+  display: flex;
+}
+
+.content {
+  display: none;
+  align-items: center;
+}
+
+.info-table {
+  margin-bottom: 1rem;
+}
+
+.info-table dl {
+  display: flex;
+  flex-direction: row;
+}
+
+.info-table dt dd {
+  display: inline-flex;
+}
